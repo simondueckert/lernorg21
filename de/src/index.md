@@ -1,1 +1,1 @@
-Das wird ein Buch über Lernende Organisationen.
+Das wird ein Buch über Lernende Organisationen. Es erscheint hoffentlich in 2026.
