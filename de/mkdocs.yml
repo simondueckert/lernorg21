@@ -16,10 +16,10 @@ nav:
     - Lernpfad: 2-0-Lernpfad.md
     - Anhang: 3-0-Anhang.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.pdf
-      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.docx
-      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.html
-      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.epub
+      - PDF-Version: https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.pdf
+      - Word-Version: https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.docx
+      - HTML-Version: https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.html
+      - E-Book (epub): https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.epub
     - Links:
       - cogneon.de: https://cogneon.de
       - CONNECT Community: https://community.cogneon.de
