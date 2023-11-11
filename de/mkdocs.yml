@@ -16,24 +16,23 @@ nav:
     - Lernpfad: 2-0-Lernpfad.md
     - Anhang: 3-0-Anhang.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.pdf
-      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.docx
-      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.html
-      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.epub
-      - E-Book (mobi): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.mobi
+      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.pdf
+      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.docx
+      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.html
+      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernorg21.epub
     - Links:
-      - lernos.org: https://lernos.org
+      - cogneon.de: https://cogneon.de
       - CONNECT Community: https://community.cogneon.de
-      - Peerfinder: https://web.peerfinder.app
 
 theme:
     name: 'material'
     custom_dir: src/overrides
     palette:
-        scheme: lernos
+      primary: yellow
+    scheme: default
     language: de
     icon:
-      logo: material/home
+      logo: material/star
       repo: fontawesome/brands/github
 
 extra_css:
