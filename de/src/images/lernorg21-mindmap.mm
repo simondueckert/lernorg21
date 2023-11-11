@@ -9,11 +9,12 @@
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#000000" STYLE="fork" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" CHILD_NODES_LAYOUT="AUTO" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<font NAME="SansSerif" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+<edge COLOR="#808080"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
@@ -275,7 +276,11 @@
 </node>
 <node TEXT="Community" POSITION="bottom_or_right" ID="ID_650820892" CREATED="1699699753481" MODIFIED="1699699755534">
 <node TEXT="Nürnberg" ID="ID_35980144" CREATED="1699705017436" MODIFIED="1699705019308">
-<node TEXT="Barcamp 2006" ID="ID_1648501924" CREATED="1699705019644" MODIFIED="1699705022444"/>
+<node TEXT="Linux Business Campus" ID="ID_1867339325" CREATED="1699708084149" MODIFIED="1699708090660">
+<node TEXT="Barcamp 2006" POSITION="bottom_or_right" ID="ID_1648501924" CREATED="1699705019644" MODIFIED="1699708002812" LINK="http://barcampnuernberg.pbworks.com/w/page/13257771/FrontPage">
+<node TEXT="http://barcampnuernberg.pbworks.com/w/page/13257797/Session%20Regiolog" ID="ID_328626671" CREATED="1699708126117" MODIFIED="1699708126117" LINK="http://barcampnuernberg.pbworks.com/w/page/13257797/Session%20Regiolog"/>
+</node>
+</node>
 <node TEXT="Coworking" ID="ID_1966842421" CREATED="1699705023799" MODIFIED="1699705025698"/>
 </node>
 <node TEXT="Gesellschaft für Wissensmanagement" ID="ID_1618154410" CREATED="1699701801349" MODIFIED="1699701809734">
