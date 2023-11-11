@@ -1,17 +1,15 @@
 ---
-title: "lernOS Template Leitfaden"
-subtitle: "Dein eigener lernOS Leitfaden in einem Sprint"
+title: "Die lernende Organisation im 21. Jahrhundert"
+subtitle: "tbd"
 author: [Simon Dückert]
-date: "Version 0.2 (01.01.2022)"
+date: "Version 0.x (dd.mm.yyyy)"
 titlepage: true
-titlepage-color: "ff6600"
-titlepage-text-color: "ffffff"
-titlepage-rule-color: "ffffff"
+titlepage-color: "f5ff00"
+titlepage-text-color: "1c1c1c"
+titlepage-rule-color: "1c1c1c"
 links-as-notes: true
 lof: false
 toc: true
 toc-own-page: true
 toc-depth: 3
-logo: src/images/lernOS-logo-white-4000px.png
-logo-width: 300px
 ---

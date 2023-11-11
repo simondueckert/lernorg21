@@ -1,5 +1,5 @@
-site_name: lernOS Template Leitfaden
-site_url: https://cogneon.github.io/
+site_name: Die Lernende Organisation im 21. Jahrhundert
+site_url: https://simondueckert.github.io/
 docs_dir: src
 site_dir: ../docs/de
 
@@ -39,29 +39,20 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-repo_name: 'cogneon/lernos-template'
-repo_url: 'https://github.com/cogneon/lernos-template'
+repo_name: 'simondueckert/lernorg21'
+repo_url: 'https://github.com/simondueckert/lernorg21'
 
 extra:
     social:
-        - icon: fontawesome/brands/twitter
-          link: 'https://twitter.com/lern_os'
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@simondueckert'
         - icon: fontawesome/brands/linkedin
-          link: 'https://www.linkedin.com/showcase/lern-os'
+          link: 'https://www.linkedin.com/in/simondueckert/'
         - icon: fontawesome/brands/github
-          link: 'https://github.com/cogneon'
+          link: 'https://github.com/simondueckert'
     disqus: lernos
     analytics:
        provider: custom
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
 plugins:
-  - rss:
-      abstract_chars_count: -1  # -1 for full content
   - search
