@@ -5,9 +5,9 @@ site_dir: ../docs/de
 
 nav:
     - Willkommen: index.md
-    - Vorgeschichte: 1-0-Vorgeschichte.md
-    - Geschichte: 2-0-Geschichte.md
-    - Ergebnis: 3-0-Ergebnis.md
+    - Die Vorgeschichte: 1-0-Prehistory.md
+    - Die Geschichte: 2-0-Story.md
+    - Mein Fazit: 3-0-Insight.md
     - Download:
       - PDF-Version: https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.pdf
       - Word-Version: https://github.com/simondueckert/lernorg21/blob/master/de/build/lernorg21.docx
