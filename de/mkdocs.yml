@@ -45,6 +45,8 @@ extra:
     analytics:
        provider: custom
     generator: false
+    giscus: lernos
+
 
 plugins:
   - search
