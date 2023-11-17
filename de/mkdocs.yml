@@ -45,7 +45,6 @@ extra:
     analytics:
        provider: custom
     generator: false
-    disqus: lernos
     giscus: lernos
 
 
