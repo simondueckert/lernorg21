@@ -2,19 +2,19 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Die Lernende Organisation im 21. Jahrhundert" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1699699305461" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1695551482000" fit_to_viewport="false"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="MapStyle" zoom="1.001">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1699822012000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#000000" STYLE="fork" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" CHILD_NODES_LAYOUT="AUTO" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
-<edge COLOR="#808080"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
@@ -41,6 +41,7 @@
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
@@ -69,13 +70,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Einleitung" POSITION="bottom_or_right" ID="ID_912019304" CREATED="1699720638799" MODIFIED="1699720641033">
 <edge COLOR="#007c00"/>
 </node>
 <node TEXT="Geschichte" POSITION="bottom_or_right" ID="ID_214793734" CREATED="1699699310323" MODIFIED="1699719504864">
 <edge COLOR="#7c0000"/>
-<node TEXT="Materialsammlung" ID="ID_501414202" CREATED="1699720631433" MODIFIED="1699720634852">
+<node TEXT="Materialsammlung" FOLDED="true" ID="ID_501414202" CREATED="1699720631433" MODIFIED="1699720634852">
 <node TEXT="Vorgeschichte" FOLDED="true" POSITION="bottom_or_right" ID="ID_1496097200" CREATED="1699699721591" MODIFIED="1699720646321">
 <node TEXT="LA2" ID="ID_1024469856" CREATED="1699701901459" MODIFIED="1699701903317"/>
 <node TEXT="Fraunhofer IIS" FOLDED="true" ID="ID_1743794811" CREATED="1699699741230" MODIFIED="1699699745211">
@@ -320,7 +320,7 @@
 <node TEXT="Knowledge Jam" POSITION="bottom_or_right" ID="ID_1810155608" CREATED="1699704442872" MODIFIED="1699704445997"/>
 </node>
 </node>
-<node TEXT="Vor der Gründung" ID="ID_509081449" CREATED="1699720663681" MODIFIED="1699720667408">
+<node TEXT="Vor der Gründung" FOLDED="true" ID="ID_509081449" CREATED="1699720663681" MODIFIED="1699720667408">
 <node TEXT="Fraunhofer IIS" ID="ID_927316947" CREATED="1699734444923" MODIFIED="1699734448558"/>
 <node TEXT="Beauftragung von FORWISS" ID="ID_1016153124" CREATED="1699734439456" MODIFIED="1699734444633"/>
 </node>
@@ -339,8 +339,9 @@
 <node TEXT="Arbeitskreis Wissensmanagement Mittelfranken (2002?-2006)" ID="ID_644320126" CREATED="1699743117051" MODIFIED="1699743212946">
 <node TEXT="GfWM Stammtisch Mittelfranken" ID="ID_1348746538" CREATED="1699743131099" MODIFIED="1699743137368"/>
 </node>
+<node TEXT="Flügge" ID="ID_1410082663" CREATED="1703234338404" MODIFIED="1703234341191"/>
 </node>
-<node TEXT="Audi und VW, Expert Debriefing, Wissensportal (2001-2004)" ID="ID_985814623" CREATED="1699720675983" MODIFIED="1699734336407">
+<node TEXT="Audi und VW, Expert Debriefing, Wissensportal (2001-2004)" FOLDED="true" ID="ID_985814623" CREATED="1699720675983" MODIFIED="1699734336407">
 <node TEXT="Wissensaktivierung" ID="ID_370711408" CREATED="1699738355078" MODIFIED="1699738361271">
 <node TEXT="Kreislauf-Grafik" ID="ID_1263773142" CREATED="1699738401630" MODIFIED="1699738406045"/>
 <node TEXT="WA für ausscheidende Mitarbeiter" ID="ID_1816428233" CREATED="1699738361512" MODIFIED="1699738373884" LINK="https://cogneon.sharepoint.com/:w:/r/_layouts/15/Doc.aspx?sourcedoc=%7B55FEC3D4-4654-480B-8E66-42048B6F4826%7D&amp;file=wissensaktivierung-fuer-ausscheidende-mitarbeiter.doc&amp;action=default&amp;mobileredirect=true&amp;DefaultItemOpen=1"/>
@@ -356,7 +357,10 @@
 <node TEXT="Korrosionsschutz (2003-2004)" ID="ID_1325720784" CREATED="1699736229984" MODIFIED="1699737585603"/>
 <node TEXT="" ID="ID_1554970063" CREATED="1699737592874" MODIFIED="1699737592874"/>
 </node>
-<node TEXT="Wissensmarktplatz" POSITION="bottom_or_right" ID="ID_1018665620" CREATED="1699734480498" MODIFIED="1699734485035"/>
+<node TEXT="Wissensmarktplatz" POSITION="bottom_or_right" ID="ID_1018665620" CREATED="1699734480498" MODIFIED="1699734485035">
+<node TEXT="Livelink" ID="ID_242002827" CREATED="1703234421805" MODIFIED="1703234430935"/>
+<node TEXT="WYSWIG Editor (Wiki)" ID="ID_1070642911" CREATED="1703234431198" MODIFIED="1703234438351"/>
+</node>
 <node TEXT="Project Debriefing Parkbremse A8" POSITION="bottom_or_right" ID="ID_637877319" CREATED="1699734485308" MODIFIED="1699734707962"/>
 </node>
 <node TEXT="VW" ID="ID_270039622" CREATED="1699736141356" MODIFIED="1699736142157">
@@ -469,7 +473,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Conti (Podcast)" POSITION="bottom_or_right" ID="ID_1752363044" CREATED="1699734171053" MODIFIED="1699734174830"/>
@@ -481,6 +484,9 @@
 </node>
 <node TEXT="VW" POSITION="bottom_or_right" ID="ID_634663049" CREATED="1699734418065" MODIFIED="1699734419482"/>
 </node>
+</node>
+<node TEXT="Vision" POSITION="bottom_or_right" ID="ID_1563475506" CREATED="1703232349275" MODIFIED="1703232350719">
+<edge COLOR="#7c007c"/>
 </node>
 <node TEXT="Fazit" POSITION="bottom_or_right" ID="ID_1859988747" CREATED="1699719510192" MODIFIED="1699719511656">
 <edge COLOR="#00007c"/>
